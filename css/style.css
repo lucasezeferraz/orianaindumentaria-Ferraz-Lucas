@@ -79,3 +79,26 @@ h2{
     background-color: green;
     
 }
+
+
+
+/* footer */
+.redes{
+    width: 70px;
+    
+}
+.div{
+    border-top: solid 1px gray;
+    display: block;
+    text-align: center;
+    margin: 50px;
+
+    
+} 
+.textCop{
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}

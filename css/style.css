@@ -1,7 +1,6 @@
 .carousel-inner{
     max-width: 100%;
-    height: 600px;    
-    
+       
 }
 
 .nav{
@@ -34,4 +33,30 @@
 
 .dropdown-menu{
     padding: 5px;
+}
+
+/* imagenes */
+
+.card-img-top{
+   padding: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 40px;
+   
+}
+
+.card{
+    text-align: center;
+    border: none;
+}
+
+.btn{
+    background-color: palevioletred;
+    border: none;
+
+}
+
+.btn:hover{
+    background-color: green;
+    
 }

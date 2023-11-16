@@ -64,8 +64,13 @@ h2{
    
 }
 
-.card{
+.card h3{
     text-align: center;
+    border: none;
+}
+
+.card{
+    
     border: none;
 }
 

@@ -64,18 +64,18 @@ h2{
    margin-top: 10px;
    margin-bottom: 10px;
    border-radius: 40px;
-   margin: auto;
+  
    
 }
 
 .card h3{
     text-align: center;
     border: none;
-    height: 20px;
+   
 }
 
 .card{
-    
+    display: inline-block;
     border: none;
 }
 
@@ -92,17 +92,12 @@ h2{
 
 
 
-
-
 /* Formulario contacto */
-form{
-   padding: 50px 100px;
-}
 
 .btn{
 margin: 10px;
 }
 
 .btnForm:hover{
-background-color: red;
+background-color: violet
 }

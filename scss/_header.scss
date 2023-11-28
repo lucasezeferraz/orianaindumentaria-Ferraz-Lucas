@@ -1,0 +1,26 @@
+.nav {
+    background-color: pink;
+}
+
+.navbar-brand {
+    color: palevioletred;
+}
+
+.dropdown-menu {
+    padding: 5px;
+}
+
+.navbar-nav {
+    border-left: 1px solid palevioletred;
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    a:hover {
+        background-color: palevioletred;
+        color: #fafafa;
+        border-radius: 8px;
+    }
+}

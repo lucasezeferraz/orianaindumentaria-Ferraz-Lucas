@@ -1,3 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+.nav {
+  background-color: pink;
+}
+
+.navbar-brand {
+  color: palevioletred;
+}
+
+.dropdown-menu {
+  padding: 5px;
+}
+
+.navbar-nav {
+  border-left: 1px solid palevioletred;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav-item a:hover {
+  background-color: palevioletred;
+  color: #fafafa;
+  border-radius: 8px;
+}
+
+h2 {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 80px;
+  text-align: center;
+  background-color: pink;
+  text-transform: uppercase;
+  padding: 10px;
+  color: palevioletred;
+  cursor: default;
+}
+
+.foot {
+  background-color: white;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.btnForm:hover {
+  background-color: violet;
+}
+
+.card-img-top {
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+}
+
+.card {
+  display: inline-block;
+  border: none;
+}
+.card h3 {
+  text-align: center;
+  border: none;
+}
+
+.btn {
+  background-color: palevioletred;
+  border: none;
+}
+.btn:hover {
+  background-color: green;
+}
 
 /*# sourceMappingURL=style.css.map */

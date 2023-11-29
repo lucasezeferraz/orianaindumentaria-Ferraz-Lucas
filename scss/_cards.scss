@@ -4,15 +4,7 @@
   margin-bottom: 10px;
   border-radius: 40px;
 }
-@mixin text{
-  text-decoration: none;
-  color: #637081;
-  border: 2px solid red;
-}
 
-h3{
-  @include text
-}
 .card {
   h3 {
     text-align: center;
@@ -31,4 +23,3 @@ h3{
     background-color: green;
   }
 }
-

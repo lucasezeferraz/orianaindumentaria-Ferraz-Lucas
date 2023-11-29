@@ -71,12 +71,6 @@ h2 {
   border-radius: 40px;
 }
 
-h3 {
-  text-decoration: none;
-  color: #637081;
-  border: 2px solid red;
-}
-
 .card {
   display: inline-block;
   border: none;

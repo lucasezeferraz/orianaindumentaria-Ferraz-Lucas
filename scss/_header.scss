@@ -3,7 +3,7 @@
 }
 
 .navbar-brand {
-    color: palevioletred;
+    color: $pale;
 }
 
 .dropdown-menu {
@@ -11,7 +11,7 @@
 }
 
 .navbar-nav {
-    border-left: 1px solid palevioletred;
+    border-left: 1px solid $pale;
 }
 
 .nav-item {
@@ -19,7 +19,7 @@
     margin-right: 10px;
 
     a:hover {
-        background-color: palevioletred;
+        background-color: $pale;
         color: #fafafa;
         border-radius: 8px;
     }

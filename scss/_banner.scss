@@ -1,4 +1,8 @@
-h2 {
+@mixin text {
+  text-decoration: underline 2px solid;
+  color: #637081;
+  background-color: #CDEAC0;
+  text-transform: uppercase;
   display: block;
   display: flex;
   align-items: center;
@@ -6,9 +10,11 @@ h2 {
   width: auto;
   height: 80px;
   text-align: center;
-  background-color: #CDEAC0;
-  text-transform: uppercase;
   padding: 10px;
   color: #637081;
   cursor: default;
+}
+
+h2 {
+  @include text
 }
